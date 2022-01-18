@@ -1,0 +1,170 @@
+#fundo{
+	background: rgb(236, 249, 255);
+}
+.informa{
+	color: red;
+	font-size: 13px;
+}
+
+.selectBtn{
+	text-align: center;
+}
+
+.btnSelect{
+	display: block;
+    margin: 0 auto;
+}
+
+#imgPerfil{
+	border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 10%;
+    width: 63%;
+}
+
+
+
+#container{
+    width: 450px;
+    padding: 10px;
+    margin: 20px auto;
+    margin-top: 160px;
+	height: auto;
+    border-radius: 1%;
+    background: white;
+    box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+}
+
+
+#form{
+    padding: 15px;
+    margin-top: 70px;
+}
+
+#bv{
+    text-align: center;
+}
+
+.container {
+	max-width: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+.dados h1 {
+	text-align: center;
+	margin: 0 0 40px;
+	padding: 0;
+	color: rgb(0, 164, 230);
+	letter-spacing: 2px;
+}
+
+.dados .cad {
+	padding: 5px;
+	margin-bottom: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border:none;
+	border-bottom: 2px solid #999;
+}
+
+#cadastrar1{
+	width: 100%;
+	text-align: center;
+}
+
+.dados form div {
+	position: relative;
+}
+
+.dados form div .label1 {
+	position: absolute;
+	top: 3px;
+	pointer-events: none;
+	left: 0;
+	transition: .5s;
+}
+
+.dados form div .label3 {
+	position:absolute;
+	text-align: center;
+	top: -20px;
+	pointer-events: none;
+	margin-left: 35%;
+	transition: .5s;
+}
+
+.dados input:focus ~.label1,
+.dados input:valid ~.label1 {
+	left: 0;
+	top: -20px;
+	color: rgb(5, 184, 255);
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.dados input:focus ~.label3{
+	left: 6%;
+	color: rgb(5, 184, 255);
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.dados input:checked ~.label2 {
+	color: rgb(5, 184, 255);
+	font-weight:bold;
+}
+
+.btns{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#addButton{
+	background-color: rgb(5, 184, 255);
+}
+
+#removeButton{
+	background-color: rgb(255, 187, 77);
+}
+
+.cep{
+    margin-left: 7%;
+}
+
+.cep2{
+    text-align: center;
+}
+
+.hr{
+	background-color: rgb(0, 164, 230);
+}
+
+#cadastrar1{
+	background-color: rgb(5, 184, 255);
+	color: white;
+}
+
+.label{
+	color: rgb(5, 184, 255);
+	font-weight:bold;
+}
+
+#labelInp{
+	font-size: 15px;
+}
+
+
+@media screen and (max-width: 575px){
+	.cep{
+		margin-left: 3%;
+	}
+}

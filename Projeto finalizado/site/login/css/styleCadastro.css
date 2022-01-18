@@ -1,0 +1,85 @@
+#fundo{
+	background: rgba(242,242,242,255);
+}
+.informa{
+	color: red;
+	font-size: 13px;
+}
+
+#container{
+    width: 450px;
+    padding: 10px;
+    margin: 20px auto;
+    margin-top: 160px;
+    border-radius: 1%;
+    background: white;
+    box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+}
+
+#form{
+    padding: 15px;
+    margin-top: 70px;
+}
+
+#bv{
+    text-align: center;
+}
+
+
+.dados h1 {
+	text-align: center;
+	margin: 0 0 40px;
+	padding: 0;
+	color: rgb(47, 153, 28);
+	letter-spacing: 2px;
+}
+
+.dados input {
+	padding: 5px;
+	margin-bottom: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border:none;
+	border-bottom: 2px solid #999;
+}
+
+
+.dados form div {
+	position: relative;
+}
+
+.dados form div label {
+	position: absolute;
+	top: 3px;
+	pointer-events: none;
+	left: 0;
+	transition: .5s;
+}
+
+.dados input:focus ~label,
+.dados input:valid ~label {
+	left: 0;
+	top: -20px;
+	color: rgb(47, 153, 28);
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.cep{
+    text-align: center;
+    margin-left: 7%;
+}
+
+.hr{
+	background-color: rgb(13, 90, 13);
+}
+
+@media screen and (max-width: 575px){
+	.cep{
+		margin-left: 3%;
+	}
+}

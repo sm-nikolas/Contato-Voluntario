@@ -1,0 +1,81 @@
+#fundo{
+    background: rgb(236, 249, 255);
+}
+
+#container{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin: 20px auto;
+    margin-top: 160px;
+    border-radius: 1%;
+    background: white;
+    box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(116, 113, 113, 0.39);
+}
+
+#form{
+    padding: 15px;
+    margin-top: 70px;
+	height: auto;
+}
+
+#bv{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 270px;
+    height: 75px;
+}
+
+.dados h1 {
+	text-align: center;
+	margin: 0 0 40px;
+	padding: 0;
+	color: #ff7535;
+	letter-spacing: 2px;
+}
+
+.linha{
+	padding: 5px;
+	margin-bottom: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border:none;
+	border-bottom: 2px solid rgb(153, 153, 153);
+}
+
+.dados form div {
+	position: relative;
+}
+
+.dados form div label {
+	position: absolute;
+	top: 3px;
+	pointer-events: none;
+	left: 0;
+	transition: .5s;
+}
+
+.dados input:focus ~label,
+.dados input:valid ~label {
+	left: 0;
+	top: -20px;
+	color: rgb(255, 187, 77);
+	font-size: 12px;
+	font-weight: bold;
+}
+#botao{
+    background-color: rgb(5, 184, 255);
+	color: white;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 30px;
+}
